@@ -140,6 +140,14 @@ public abstract class BaseClass extends AppCompatActivity {
                                         BLUE_TRANSITION));
 
                 startActivity(intent,options.toBundle());
+
+                // For slide animation instead of flip.
+
+//                Intent intent1 = new Intent(context, SecondActivity.class);
+//                intent1.putExtra(TRANSITION_TYPE, "Slide");
+//                getWindow().setExitTransition(new Slide());
+//                startActivity(intent1, ActivityOptions
+//                        .makeSceneTransitionAnimation((Activity) context).toBundle());
             }
         });
     }
