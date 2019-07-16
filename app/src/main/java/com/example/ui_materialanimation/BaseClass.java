@@ -15,9 +15,13 @@ import android.util.Pair;
 import android.view.View;
 import android.widget.ImageView;
 
+/**
+ * BaseClass provides methods and constants for animation common to both
+ * the Main and Second activities.
+ */
 public abstract class BaseClass extends AppCompatActivity {
 
-    // Constant use for the intent to indicate the type of transition.
+    // Constant used for the Intent to indicate the type of transition.
     private static final String TRANSITION_TYPE = "Transition Type";
 
     // Constants for shared element transitions.
